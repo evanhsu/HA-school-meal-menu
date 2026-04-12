@@ -8,6 +8,7 @@ Custom integration for [LINQ Connect](https://api.linqconnect.com/api/FamilyMenu
 2. Paste the Clone link for this repo (`git@github.com:evanhsu/HA-school-meal-menu.git`) and select "Integration" as the **Type**
 3. After the Custom Repository is registered, search for "School meal menu" in the HACS search bar and "Download" the integration. You'll be prompted to restart Home Assistant after the integration is downloaded - go ahead and do it now.
 4. On the **Integrations** screen, click the "+ Add Integration" button and search for "School Meal Menu". It will prompt you to name the sensor - you'll need to remember this name in step 7 below.
+5. You can customize the options by clicking the Gear icon for this integration on the Integrations page
 
 ## Install the custom LoveLace card
 
