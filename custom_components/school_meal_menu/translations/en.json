@@ -1,0 +1,26 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "School Meal Menu",
+        "description": "Enter your LINQ Connect building and district identifiers (same as MagicMirror MMM-TitanSchoolMealMenu).",
+        "data": {
+          "building_id": "Building ID",
+          "district_id": "District ID",
+          "name": "Name"
+        }
+      },
+      "init": {
+        "title": "School Meal Menu options",
+        "description": "These mirror MMM-TitanSchoolMealMenu settings (numberOfDaysToDisplay, recipeCategoriesToInclude, updateIntervalMs, etc.)."
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not fetch the menu (check IDs and network).",
+      "unknown": "Unexpected error, see logs."
+    },
+    "abort": {
+      "already_configured": "This building/district is already configured."
+    }
+  }
+}

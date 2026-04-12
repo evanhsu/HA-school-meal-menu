@@ -1,0 +1,10 @@
+{
+  "domain": "school_meal_menu",
+  "name": "School Meal Menu",
+  "codeowners": [],
+  "config_flow": true,
+  "documentation": "https://www.home-assistant.io/integrations/",
+  "iot_class": "cloud_polling",
+  "requirements": [],
+  "version": "1.0.0"
+}
